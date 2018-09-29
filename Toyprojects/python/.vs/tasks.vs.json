@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-3.1 example",
+      "appliesTo": "3.1 example.py",
+      "type": "launch"
+    }
+  ]
+}

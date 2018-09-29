@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="Description" content="우선 단일 페이지 형식으로 작성이 된다.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hell`s care</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <script src="./script/script.js"></script>
+  <script src="./script/jquery-3.3.1.min.js"></script>
+
+
+  </script>he
+</head>sd
+
+<body>
+  <img src="./style/마크.svg" alt="Hell`s care" id=imgmark>
+  <h1>Project:Hell`s care</h1>
+
+  <li>2. 기존 자료 입력하고 저장을 할 수 있는 알고</li>
+  <li>3. 측정 자료를 바탕으로 그의 맞는 이미지를 띄우는 알고</li>
+  <li>4. 자료 해석을 다양화 하는 방법</li>
+  <li>1. 기준을 만드는 것이 필요</li>
+  <li>1. 성별</li>
+  <li>2. 연령 대</li>
+  <li>3. 신체 기준</li>
+  <li>4. 행동을 하였을 때의 자기 평가</li>
+  <li>6. 담배를 핀 횟 --> 안 좋은 습관까지도 기억을 하여 종합적인 역할을 한다.</li>
+  <li>7. 건강검진 결과 입력 --> 기존의 내역들을 기록하고 분석 언제 받아야하는지 공지</li>
+  </ol>
+
+</body>
+
+<body>
+  <h1>BMI</h1>
+  
+
+  <form label="BMI">
+    <input type="text" placeholder="키" id="height">
+    <input type="text" placeholder="무게" id="weight">
+    <input type="button" id="BMIbt" onclick="setvalue();" value="CAl">
+    <input type="text" id="returnvalue" disabled>
+  </form>
+
+
+  <script>
+    var a = document.getElementById("weight");
+    var b = document.getElementById("height");
+    var c = document.getElementById("returnvalue")
+
+    function setvalue() {
+      c.value = (a.value) / (b.value * b.value / 10000);
+
+    }
+  </script>
+
+
+  <body>
+    <h1>Sleep</h1>
+    <ol>
+      <li>오늘,수면시간,수면평가</li>
+
+    </ol>
+  </body>
+
+  <body>
+    <h1>Water</h1>
+    <ol>
+      <li>Frequency</li>
+      <li>물을 먹는 빈도 수를 이용한 차트</li>
+      <li>1day 2L</li>
+    </ol>
+  </body>
+
+  <body>
+    <h1>Medicne, Vitamin</h1>
+    <ol>
+      <li>현재 복용을 하고 있는 약물</li>
+      <li>cent</li>
+      <li>mi</li>
+    </ol>
+  </body>
+
+  <body>
+    Copyright (C) Keel_im . All rights reserved
+  </body>
+
+</html>
