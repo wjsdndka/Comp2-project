@@ -1,1 +1,0 @@
-alert("hello my world");

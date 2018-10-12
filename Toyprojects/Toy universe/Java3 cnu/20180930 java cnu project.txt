@@ -1,5 +1,0 @@
-20180930 Java cnu --> Project Start
-
-1. Plan --> Toy Project Plan 
-2. GUI programming --> Ecclipse Window Builder
-Window Builder --> MainFrame Java
