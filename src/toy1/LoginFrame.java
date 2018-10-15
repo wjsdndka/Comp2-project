@@ -42,6 +42,7 @@ public class LoginFrame extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				// TODO 자동 생성된 메소드 스텁
 				new MainFrame();
+				new SatusFrame();
 				setVisible(false);
 				
 			}
