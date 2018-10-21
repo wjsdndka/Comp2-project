@@ -30,6 +30,7 @@ public class SatusFrame extends JFrame {
 
 		JLabel lblDbId = new JLabel("DB ID");
 		lblDbId.setBounds(309, 10, 57, 15);
+		
 		getContentPane().add(lblDbId);
 
 		JLabel lblDbRank = new JLabel("DB RANK");
@@ -77,7 +78,7 @@ public class SatusFrame extends JFrame {
 		public void paintComponent(Graphics g) {
 			super.paintComponent(g);
 			try {
-				img = ImageIO.read(new File("C:\\Users\\h0033\\Desktop\\download.jpg"));
+				img = ImageIO.read(new File("C:\\Users\\h0033\\Desktop\\download.png"));
 			} catch (IOException e) {
 				// TODO 자동 생성된 catch 블록
 				e.printStackTrace();

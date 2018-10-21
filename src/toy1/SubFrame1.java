@@ -12,8 +12,8 @@ public class SubFrame1 extends JFrame{
 		
 		JTextPane textPane = new JTextPane();
 		textPane.setEditable(false);
-		textPane.setText("만들어야 하는 목록 입니다. \r\n1. 로그인 페이지 이벤트 처리 및 기타 프로그램 응용 가능?\r\n2. 쓰레드 프로그래밍\r\n3, GUI 프로 그래밍\r\n4, DB 활용 -->어느 데이터 베이스 사용\r\n5, 랭킹 시스템\r\n6, ~~~`");
-		getContentPane().add(textPane, BorderLayout.CENTER);
+		textPane.setText("1. 채팅프로그램 --> 쓰레드 시스템\r\n2. 로그인 프로그램 --> DB 활용\r\n3. 회원 가입 -->DB 활용\r\n4. 윷놀이 --> 게임 결과\r\n\r\n");
+		getContentPane().add(textPane, BorderLayout.NORTH);
 		
 		setVisible(true);
 		
