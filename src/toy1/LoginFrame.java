@@ -68,6 +68,6 @@ public class LoginFrame extends JFrame {
 }
 
 class SignStatus {
-	public String ID;
-	public String Password;
+	public static String ID;
+	public  static String Password;
 }

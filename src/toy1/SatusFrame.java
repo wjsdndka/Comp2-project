@@ -31,6 +31,7 @@ public class SatusFrame extends JFrame {
 		JLabel lblDbId = new JLabel("DB ID");
 		lblDbId.setBounds(309, 10, 57, 15);
 		
+		
 		getContentPane().add(lblDbId);
 
 		JLabel lblDbRank = new JLabel("DB RANK");
