@@ -8,6 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class MainFrame extends JFrame{
+	private int yutchecknum =0;
 	public MainFrame() {
 		setTitle("메인화면");
 		setSize(770, 400);
@@ -172,7 +173,15 @@ public class MainFrame extends JFrame{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO 자동 생성된 메소드 스텁
-				new Yut();
+				Yut u = new Yut();
+				
+				if(yutchecknum == 1) {
+					u.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+					Yut u1 = new Yut();
+				} else {
+					Yut u1 = new Yut();
+				}
+				
 			}
 			
 		});
