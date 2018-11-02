@@ -9,7 +9,6 @@ import javax.imageio.ImageIO;
 import javax.swing.*;
 
 public class Yut extends JFrame {
-	
 	BufferedImage img = null;
 
 	public Yut() {
@@ -78,5 +77,4 @@ public class Yut extends JFrame {
 		}
 
 	}
-
 }

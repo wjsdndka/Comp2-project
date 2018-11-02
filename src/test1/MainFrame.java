@@ -175,12 +175,7 @@ public class MainFrame extends JFrame{
 				// TODO 자동 생성된 메소드 스텁
 				Yut u = new Yut();
 				
-				if(yutchecknum == 1) {
-					u.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-					Yut u1 = new Yut();
-				} else {
-					Yut u1 = new Yut();
-				}
+				
 				
 			}
 			

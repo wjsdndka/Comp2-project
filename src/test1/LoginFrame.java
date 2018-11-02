@@ -39,21 +39,6 @@ public class LoginFrame extends JFrame {
 		btnNewButton.setBounds(316, 53, 85, 52);
 		getContentPane().add(btnNewButton);
 
-		JButton btnNewButton_1 = new JButton("Sign up");
-		btnNewButton_1.setBounds(316, 128, 85, 23);
-		btnNewButton_1.addActionListener(new ActionListener() {
-
-			
-			public void actionPerformed(ActionEvent e) {
-				new SignUpFrame();
-				
-			}
-			
-		});
-		getContentPane().add(btnNewButton_1);
 		setVisible(true);
 	}
 }
-
-
-
