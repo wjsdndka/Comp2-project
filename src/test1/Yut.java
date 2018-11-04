@@ -55,8 +55,8 @@ public class Yut extends JFrame {
 				System.exit(0);
 			}
 		}
-
-		add(new Yut_Panel());
+		JPanel p = new Yut_Panel();
+		add(p);
 		pack();
 		setVisible(true);
 

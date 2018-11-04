@@ -37,8 +37,18 @@ public class LoginFrame extends JFrame {
 
 		JButton btnNewButton = new JButton("Sign in");
 		btnNewButton.setBounds(316, 53, 85, 52);
-		getContentPane().add(btnNewButton);
+		btnNewButton.addActionListener(new ActionListener() {
 
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO 자동 생성된 메소드 스텁
+				MainFrame m = new MainFrame();
+				setVisible(false);
+			}
+			
+		});
+		getContentPane().add(btnNewButton);
+		setLocationRelativeTo(null);
 		setVisible(true);
 	}
 }
